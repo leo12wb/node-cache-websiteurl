@@ -1,0 +1,31 @@
+{
+  "name": "cache",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/index.ts",
+    "serve": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/index.ts",
+    "build": "tsc",
+    "start": "node dist/src/server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@types/node": "^20.2.3",
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "node-cache": "^5.1.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.5"
+  },
+  "keywords": [],
+  "author": "leonardo",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.2",
+    "supertest": "^6.3.3",
+    "ts-jest": "^29.1.0"
+  }
+}
